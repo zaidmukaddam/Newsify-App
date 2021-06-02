@@ -3,6 +3,7 @@ import 'package:webview_flutter/webview_flutter.dart';
 
 import 'components/title.dart';
 import 'home.dart';
+import 'about.dart';
 
 class ArticleView extends StatefulWidget {
   final String articleLink;
@@ -44,7 +45,10 @@ class _ArticleViewState extends State<ArticleView> {
                   Icons.info,
                   color: lighttheme ? Colors.white : Colors.black,
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => AboutPage()));
+                },
               )
             ],
             centerTitle: false,

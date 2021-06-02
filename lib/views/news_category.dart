@@ -5,6 +5,7 @@ import 'package:Newsify/models/article.dart';
 import 'components/article_card.dart';
 import 'components/title.dart';
 import 'home.dart';
+import 'about.dart';
 
 class NewsCategory extends StatefulWidget {
   final String categoryName;
@@ -60,7 +61,10 @@ class _NewsCategoryState extends State<NewsCategory> {
                   Icons.info,
                   color: lighttheme ? Colors.white : Colors.black,
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  Navigator.push(
+                      context, MaterialPageRoute(builder: (context) => AboutPage()));
+                },
               )
             ],
             centerTitle: false,
