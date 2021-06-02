@@ -6,4 +6,4 @@ The idea is to keep the app super simple while demonstrating new libraries and t
 
 ##### P.S : SUPPORTS BOTH LIGHT AND DARK MODE! 😉
 ##### Download APK
-<pre><a href="https://github.com/zaidmukaddam/Newsify-App/raw/main/app.apk">https://github.com/zaidmukaddam/Newsify-App/raw/main/app.apk</a></pre>
+<pre><a href="https://github.com/zaidmukaddam/Newsify-App/releases/download/v1.0.0/app-release.apk">Newsify App</a></pre>
