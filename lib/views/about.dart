@@ -37,7 +37,7 @@ class AboutPage extends StatelessWidget {
                     child: Column(
                       children: <Widget>[
                         SizedBox(
-                          height: 120,
+                          height: 90,
                         ),
                         Padding(
                           padding: const EdgeInsets.symmetric(horizontal: 30),
