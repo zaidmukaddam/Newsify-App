@@ -66,7 +66,7 @@ class _SplashScreenState extends State<SplashScreen>
               height: 5,
             ),
             TypewriterAnimatedTextKit(
-              speed: Duration(milliseconds: 50),
+              speed: Duration(milliseconds: 100),
               totalRepeatCount: 1,
               text: ['For Stories That Matter.'],
               textStyle: TextStyle(fontFamily: 'Poppins', fontSize: 15),

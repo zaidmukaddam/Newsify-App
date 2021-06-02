@@ -50,7 +50,7 @@ class AboutPage extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 50,
+                          height: 30,
                         ),
                         Text(
                           "You can find the whole source code on",
@@ -69,7 +69,7 @@ class AboutPage extends StatelessWidget {
                           ),
                         ),
                         SizedBox(
-                          height: 50,
+                          height: 30,
                         ),
                         Text(
                           "Made with ❤ by",
@@ -82,7 +82,7 @@ class AboutPage extends StatelessWidget {
                         Text(
                           "@zaidmukaddam",
                           style: TextStyle(
-                            fontSize: 20,
+                            fontSize: 14,
                             fontWeight: FontWeight.bold,
                             color: lighttheme ? Colors.black : Colors.white,
                           ),
@@ -114,7 +114,7 @@ class AboutPage extends StatelessWidget {
                 width: 150,
                 child: CircleAvatar(
                   backgroundImage: NetworkImage(
-                    "https://cdn2.vectorstock.com/i/1000x1000/53/96/logo-letter-z-glitch-distortion-vector-22855396.jpg",
+                    "https://i.ibb.co/zxhwbkZ/z-logo.jpg",
                   ),
                 ),
               ),
